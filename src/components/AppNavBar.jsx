@@ -25,8 +25,6 @@ export default function AppNavBar() {
                 </Link>      
               </ul>
             </li>
-            {/* <Link id='business-division-link' className="font--link nav-link">Business Division</Link> */}
-            <Link to="/reference" className="font--link nav-link">Reference</Link>
             <Link to="/partners" className="font--link nav-link">Partners</Link>
             <Link to="/contact" className="font--link nav-link">Contact Us</Link>
           </Nav>

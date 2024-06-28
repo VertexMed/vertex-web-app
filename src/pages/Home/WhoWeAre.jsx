@@ -10,8 +10,9 @@ export default function WhoWeAre(){
                         Vertex Medical Equipment Supplies and Maintenance  Services is an  eminent company located in Abu Dhabi, UAE, that has been serving the  needs of the healthcare community. Upon its existence for more than 10 years, Vertex has proven to be one of the leading providers of High-Quality Medical Equipment and Maintenance Services to the customers.
                     </h2>
                 </div>
-                <div className="col-md-auto col-lg-6 ">
-                    <Lottie animationData={animationData} loop={true} />
+                <div className="col-md-auto col-lg-6 overflow-container text-center" id="building">
+                    <img src="/images/home/15years.svg" alt="15 YEARS" className="img-fluid" width="500"/>
+                    {/* <Lottie animationData={animationData} loop={true} /> */}
                 </div>
             </div>
         </section>

@@ -36,6 +36,10 @@ button {
     min-height: 100%;
 }
 
+.overflow-container{
+    overflow: hidden;
+}
+
 /* Loader */
 
 /* Navbar */
@@ -48,6 +52,7 @@ button {
     z-index: 5;
     transition: 0.5s linear;
 }
+
 
 #app-nav-bar:hover {
     padding-top: 48px;
@@ -113,10 +118,39 @@ li:hover ul#submenu {
     box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.3);
 }
 
-
 .font--link{
     font-size: 24px !important;
     font-weight: 700 !important;
+}
+
+/* Contact Support */
+#contact-support{
+    position: fixed;
+    top: 15%;
+    left: 82%;
+    z-index: 3;
+    overflow: hidden;
+}
+
+#support-icon{
+    cursor: pointer;
+    filter: drop-shadow(2px 4px 1px rgba(0, 0, 0, 0.1));
+}
+
+#support-content{
+    background-color: white;
+    max-height: 0;
+    transition: 0.3s linear;
+}
+
+#contact-support:hover #support-content {
+    max-height: 250px;
+}
+#support-content img{
+    transition: 0.2s linear;
+}
+#support-content img:hover {
+    transform: scale(1.2);
 }
 
 /* Hero Section */
@@ -179,11 +213,18 @@ li:hover ul#submenu {
     color: #1663A7;
 }
 
+#building {
+    background-image: url("/public/images/home/building.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* Division Section */
 .division-header{
     font-size: 80px;
     font-weight: bold;
-    color: #1663A7
+    color: #1663A7;
 }
 
 .division-subheader{
@@ -192,7 +233,7 @@ li:hover ul#submenu {
 
 .division-text{
     font-weight: lighter;
-    color: #1663A7
+    color: #1663A7;
 }
 
 #division--proj {

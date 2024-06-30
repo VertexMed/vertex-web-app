@@ -43,7 +43,7 @@ export default function Footer(){
             </div>
             <hr className="text-white m-0"/>
             <div className="px-5 py-2 text-white d-flex">
-                <span>Copyright &#169; 2024 Vertex</span>
+                <span>Copyright &#169; 2019 - 2024 All Rights Reserved by VERTEX</span>
                 <a href="" className="ms-auto text-decoration-none text-white"><span>Privacy and Security Statement</span></a>
             </div>
         </section>

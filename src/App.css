@@ -153,6 +153,48 @@ li:hover ul#submenu {
     transform: scale(1.2);
 }
 
+/* Slider animation */
+.slider-left{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.slider-right{
+    overflow-x: hidden;
+    width: 100%;
+    
+}
+
+.slide-left{
+    display: flex;
+    width: calc(100% * 3);
+    animation: scroll-left 50s infinite linear;
+}
+
+.slide-right{
+    display: flex;
+    width: calc(100% * 3);
+    animation: scroll-right 50s infinite linear;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scroll-right {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
 /* Hero Section */
 #hero-section {
     position: relative;
@@ -200,6 +242,33 @@ li:hover ul#submenu {
     color: #031D34;
     font-weight: 700;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Stats Info */
+#statsinfo-box > div{
+    width: 400px;
+    min-width: 200px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: -1px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+#statsinfo-box > #slide-1{
+    background-color: #1663A7;
+}
+
+#statsinfo-box > #slide-2{
+    /* background-color: #FFA800; */
+    background-color: #FF0F00;
+}
+
+#statsinfo-box > #slide-3{
+    background-color: #469BE7;
+}
+
+#statsinfo-box > #slide-4{
+    /* background-color: #7FD272; */
+    background-color: #787878;
 }
 
 /* Who We Are Section*/

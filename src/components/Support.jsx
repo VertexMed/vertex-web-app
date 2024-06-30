@@ -5,12 +5,12 @@ export default function Support(){
             <img src="/images/support/support.svg" alt="Vertex" width={80} className="img-fluid" id="support-icon"/>
             <div className="text-center rounded" id="support-content">
                 <div className="pt-2">
-                    <a href="https://wa.me/" target="_blank">
+                    <a href="https://wa.me/97128870667" target="_blank">
                         <img src="/images/support/whatsapp.svg" alt="Vertex" width={60} className="img-fluid" id="support-icon"/>
                     </a>
                 </div>
                 <div className="p-2">
-                    <a href="mailto:contact@gulfdrug.com" target="">
+                    <a href="mailto:info@vertex-med.com" target="">
                         <img src="/images/support/email.svg" alt="Vertex" width={60} className="img-fluid" id="support-icon"/>
                     </a>
                 </div>
